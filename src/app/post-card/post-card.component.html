@@ -1,0 +1,16 @@
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title">{{ dataPost.title }}</h4>
+    <p class="card-text">{{ dataPost.body }}</p>
+    <div class="text-right">
+      <button [disabled]="disableButtons" (click)="updatePost()" class="btn btn-primary btn-sm">
+        <i class="icon icon ion-edit"></i>
+        Edit
+      </button>
+      <button [disabled]="disableButtons" (click)="deletePost()" class="btn btn-danger btn-sm">
+        <i class="icon icon ion-trash-a"></i>
+        Delete
+      </button>
+    </div>
+  </div>
+</div>
