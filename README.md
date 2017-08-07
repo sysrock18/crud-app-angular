@@ -1,28 +1,43 @@
-# CrudApp
+Angular CRUD App
+===================
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.7.
+Aplicación Angular que consume la API de [JSONPlaceholder](https://jsonplaceholder.typicode.com/) para mostrar, crear, editar y eliminar posts. Se hace uso de los metodos indicados en la API (GET, POST, PUT y DELETE) para realizar estas operaciones.
 
-## Development server
+----------
+#### <i class="icon-book"></i> Librerias usadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ - [NgBootstrap](https://ng-bootstrap.github.io/)
 
-## Code scaffolding
+#### <i class="icon-folder-open"></i> Iconos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ - [Ionic Icons](http://ionicons.com/)
 
-## Build
+#### <i class="icon-camera"></i> Algunas imagenes previas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+![](https://drive.google.com/uc?id=0BwRKmOb3vYULQ1N5WnJ4cmUwVW8)
 
-## Running unit tests
+![](https://drive.google.com/uc?id=0BwRKmOb3vYULZkVjczJDQkJwMWs)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![](https://drive.google.com/uc?id=0BwRKmOb3vYULc1ZWME5PWFFYbkE)
 
-## Running end-to-end tests
+#### <i class="icon-mobile"></i> Full Responsive
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+![](https://drive.google.com/uc?id=0BwRKmOb3vYULX19oNzRkY3VrRVU)
 
-## Further help
+![](https://drive.google.com/uc?id=0BwRKmOb3vYULSGhwTktLelZDYUk)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![](https://drive.google.com/uc?id=0BwRKmOb3vYULdDY0V0VjRWdNMFE)
+
+![](https://drive.google.com/uc?id=0BwRKmOb3vYULZjJWTkJka3FUZzA)
+
+## Instalación
+
+Descargar el proyecto y ejecutar en la terminal desde la carpeta raiz de este el comando `npm install` para descargar los paquetes necesarios. Luego ejecutar `ng serve` para iniciar el servidor y arrancar la aplicaciñon desde el navegador en la ruta `http://localhost:4200/`.
+
+## Pruebas Unitarias
+
+Ejecutar `ng test` via [Karma](https://karma-runner.github.io).
+
+#### <i class="icon-keyboard"></i> Desarrollador
+Simon González
+e-mail: gonzalezsimon18@gmail.com
